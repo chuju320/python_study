@@ -79,6 +79,8 @@ def start():
     hosdic = {}  #现场医院名
     hossql = {}  #任务脚本
     nohos = {}   #非现场任务
+    hoss = {}  #现场任务
+    hoslist = []
     f = open('123.txt','w')
     for j in range(1,table.nrows):
         clo1s = table.cell_value(j,clo1) #标识
@@ -88,13 +90,16 @@ def start():
         sql = sqls(j,clo4)
         hossql[clo1s] = sql
         hosName = table.cell_value(j,hosNum)
-        if hosName.strip()=='' and clo3s.strip()!='张倩' and clo3s.strip()!='李甲林':
-            nohos[clo1s] = clo2s
-        else:
-            hosdic[clo1s] = clo2s  #吧 标识、主题  写进字典
-            Dict[hosName] = hosdic #把现场创建的任务放进Dict总字典
+        if clo3s.strip()!='张倩' and clo3s.strip()!='李甲林':
+            if hosName.strip()=='':
+                nohos[clo1s] = clo2s
+            else:
+                hosdic[clo1s] = clo2s  #吧 标识、主题  写进字典
+                hoss[hosName] = clo1s
+                #Dict[hosName] = clo1s #把现场创建的任务放进Dict总字典
+                hoslist.append(hoss)
 #没有根据医院区分出  具体信息
-    f.write('本地创建任务：\n')
+    f.write('本地创建任务：\n\n')
     for i in nohos.keys():
         line1 = '%s %s'%(i,nohos[i])
         f.write('\n')
@@ -105,7 +110,7 @@ def start():
     keys = Dict.keys()
     for i in keys:
         f.write(i)
-        f.write('\n')
+        f.write('\n\n')
         for j in Dict[i].keys():
             line = '%s %s'%(j,Dict[i][j])
             f.write('\n')
