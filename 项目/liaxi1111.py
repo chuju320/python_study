@@ -1,3 +1,11 @@
 #-*-coding:utf-8-*-
-[{u'domain': u'.douban.com', u'name': u'bid', u'value': u'GQRM9-d6Keg', u'expiry': 1498645041, u'path': u'/', u'httpOnly': False, u'secure': False},
-{u'domain': u'.douban.com', u'name': u'ps', u'value': u'y', u'expiry': 1469701042, u'path': u'/', u'httpOnly': False, u'secure': False}]
+
+
+a = 'SQL\\1SYSTEMMANAGEMENT\\0DDL\\2VIEW_FUNC201607121648_SYS_OPERATION_INSERT.SQL'
+
+num = a.upper().index('201')
+b = a[0:num]
+c = a.replace(b,'sql\\0TABLEDATA\\')
+print b
+print c
+print 'view'.upper() in a.upper()
