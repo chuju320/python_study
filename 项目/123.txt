@@ -1,121 +1,305 @@
 本地创建任务：
 
-NQM-202 长沙中心医院--人员信息修改
-NQM-341 报表统计结果显示为某段时间内全院参与调查的病区 护士工作的满意、较满意、不满意的个数以及满意率；其中调查模板中的基本信息为统计时的查询条件
-sql\0TABLEDATA\201607120910_SYS_OPERATION_INSERT.SQL,
-NQM-378 人员调配功能列表导出
-NQM-340 合并湖南人民医院指标登记模块修改代码（项目现场开发，无需测试）
-sql\0TABLEDATA\201607071006_INDICATE_RECORD_CS_ALERT.SQL,
-NQM-369 护士长，总护士长，护理部实现IPAD图片上传
-NQM-126 上报不良事件统计权限调整
-NQM-330 胸科医院-不良事件压疮-添加图片上传功能 PC端接口接口实现
-sql\0TABLEDATA\201607111951_PER_INFO_TYPE_DETAIL_INSERT.sql,
-NQM-358 十堰太和医院上报表单导出界面实现
-NQM-370 护士长，总护士长，护理部实现PC端图片上传
-NQM-352 修改上报图片上传功能 （IOS）
-NQM-377 上报模块上传图片窗口，按回车以后，页面出错
-NQM-329 胸科医院-不良事件压疮-添加图片上传功能 IOS功能 实现
-NQM-307 湖北十堰太和 上报系统的列表导出界面修改（重点修改加载类似其他选项后面的文字）
-NQM-277 允许操作者在【上报报表-护士长】 【上报报表-总护士长】上传照片，并可以预览
-sql\0TABLEDATA\201607061438_Rp_Permission_Insert.sql,
+NQM-385 7、仁济医院不良事件呈报表单（自杀&自伤）
+sql\0TABLEDATA\201607221653_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607221653_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607221653_Rp_StatusChange_Insert.sql,
+sql\0TABLEDATA\201607221653_Rp_Status_Insert.sql
+本地创建任务：
 
-*M2015115 哈尔滨市第一医院（一期）*
+NQM-384 6、仁济医院不良事件呈报表单（院内压疮）
+sql\0TABLEDATA\201607231533_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607231534_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607231535_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201607231536_Rp_StatusChange_Insert.sql
+本地创建任务：
 
-NQM-247 报表打印的时候病区电脑需要安装Grid++软件，否则打印不了。
-NQM-301 【出院满意度任务设置】分配病人失败
+NQM-383 5、仁济医院不良事件呈报表单（意外伤害事件）
+sql\0TABLEDATA\201608101154_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608101155_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608101156_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608101157_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-382 4、仁济医院不良事件呈报表单（身份识别错误）
+sql\0TABLEDATA\201608091951_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608091952_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608091953_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608091954_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+NQM-381 3、仁济医院不良事件呈报表单（给药错误）
+sql\0TABLEDATA\201608101312_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608101313_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608101314_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608101315_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-380 2、仁济医院不良事件呈报表单（跌倒/坠床）
+sql\0TABLEDATA\201608101159_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608101200_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608101201_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608101202_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-400 解放军第303医院管道滑脱事件报告表
+sql\0TABLEDATA\201607271623_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607271624_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607271625_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201607271626_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+NQM-401 解放军第303医院院内压疮事件报告表
+sql\0TABLEDATA\201607271459_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607271500_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607271501_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201607271502_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+NQM-402 解放军第303医院输液外渗事件报告表
+sql\0TABLEDATA\201607271437_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607271438_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607271439_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201607271440_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+NQM-403 解放军第303医院烫伤事件报告表
+sql\0TABLEDATA\201607272031_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607272032_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607272033_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201607272034_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+NQM-405 解放军第303医院自杀事件报告表
+sql\0TABLEDATA\201607261145_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201607261146_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201607261147_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201607261148_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+NQM-564 质量检查持续小组界面报错
+本地创建任务：
+
+NQM-602 长沙中心医院-模板添加主观项修改、质量检查流程修改
+本地创建任务：
+
+NQM-379 1、仁济医院不良事件呈报表单（非计划性拔管）
+sql\0TABLEDATA\201608091528_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608091529_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608091530_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608091531_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-605 科室人员查询（多条件）
+sql\0TABLEDATA\201608112050_PER_CONFIG_INSERT.sql'
+本地创建任务：
+
+NQM-447 上报模块所有跟踪表格方法实现
+本地创建任务：
+
+NQM-489 富宁县人民医院护理不良事件报告表
+sql\0TABLEDATA\201608082023_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608082024_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608082025_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608082026_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-482 1、附件里面是从护理部收集来的质量考核标准文档
+本地创建任务：
+
+NQM-483 3、护理部提出 在不良事件功能单中 发生班次要有对应的时间，具体班次需求请看附件里的图片。
+本地创建任务：
+
+NQM-484 输液反应事件报告表
+sql\0TABLEDATA\201608082139_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608082140_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608082141_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608082142_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-485 不良事件上报报告表（其他）
+sql\0TABLEDATA\201608051655_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608051656_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608051657_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608051658_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-492 富宁县人民医院压疮发生报告表
+sql\0TABLEDATA\201608112300_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608112301_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608112302_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608112303_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608112304_Rp_StatusChange_Delete.sql,
+sql\0TABLEDATA\201608112305_Rp_StatusChange_Insert.sql'
+本地创建任务：
+
+NQM-490 富宁县人民医院患者自杀、走失评估上报表
+sql\0TABLEDATA\201608051956_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608051957_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608051958_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608051959_Rp_StatusChange_Insert.sql
+本地创建任务：
+
+
+*M2015193 丹阳市人民医院*
+
+NQM-423 专科护理指标--》指标统计界面不能统计出数据
+NQM-439 住院满意度模板录入-->选择调查选项当有2个分值一样的选项不能保存
+NQM-438 住院满意度人员配置（多模板）-->设置调查人员
 
 *M2015103 新沂市人民医院*
 
-NQM-261 上报统计功能问题修改
-NQM-238 住院满意度调查、病区自查页面添加被调查护士，患者信息改成自动提取
-sql\0TABLEDATA\201607111632_IN_SRECORD_INSERT.SQL,
-NQM-275 满意度-增加护士工作满意度调查模块以及对应统计报表
-sql\0TABLEDATA\201607121648_SYS_OPERATION_INSERT.SQL,
-NQM-267 上报事件统计数据表格问题
-NQM-255 上报表单-护士长页面查询结果问题
-NQM-357 患者皮肤压疮上报表单护理部质控追踪记录的评分内容不能修改
-NQM-226 人员调配回写his问题
-NQM-366 人员调配功能列表导出问题
-NQM-274 满意度-增加医技人员对护士工作满意度调查分析汇总表
-sql\0TABLEDATA\201607111311_SYS_OPERATION_INSERT.SQL,
-NQM-253 新增 每月科室存在问题分类汇总表
-sql\0TABLEDATA\201607111628_SYS_OPERATION_INSERT.sql,
+NQM-413 不良事件上报页面内容增加以及导出内容增加列
+NQM-412 质量检查增加全病区考核分按年统计汇总表
+NQM-411 原因分析与跟踪检查问题
+NQM-410 病区考核分查询条件和柱状图样式修改
+NQM-417 增加护士工作满意度调查分析柱状图
+NQM-416 增加医技人员对护士工作满意度调查分析柱状图
+NQM-415 增加护理指标全年汇总统计表
+NQM-414 增加护理指标统计（按月、按季、按年）
+NQM-431 ipad检查打印导出文件名称修改
+sql\0TABLEDATA\201608030914_SYS_OPERATION_INSERT.SQL,
+sql\0TABLEDATA\201608030915_SYS_OPERATION_INSERT.SQL,
+sql\0TABLEDATA\201608030916_SYS_OPERATION_INSERT.SQL,'
+sql\0TABLEDATA\201608041716_SYS_OPERATION_INSERT.SQL'
+sql\0TABLEDATA\201608051115_SYS_OPERATION_INSERT.SQL'
+sql\0TABLEDATA\201608092222_SYS_OPERATION_INSERT.sql'
 
 *M2015198-随州市中心医院*
 
-NQM-222 人员档案模块六个前台显示调整，具体见文件描述
-sql\0TABLEDATA\201607071810_SYS_OPERATION_INSERT.SQL,
+NQM-528 排班 - 字典维护界面“层级”列下拉项中加入 “副护士长” 选项
+NQM-527 排班 - 新增床位设置模式，按护士维度进行维护和设置
+NQM-526 排班 - 排班记录界面增加带教老师字段，打印时需显示
+NQM-525 排班需求 - 排班记录界面以及打印时不显示公休假列，请隐藏该列
+NQM-524 排班bug - 排班打印时层级为N4的护士排班显示不出来
+NQM-530 质控 - 病区自查界面中模板下拉数据按模板组ID和模板名称的中文字母排序
+sql\0TABLEDATA\201608051332_RK_DICTIONARY_INSERT.SQL
+sql\0TABLEDATA\201608081607_RKL_RECORD_ALTER.SQL
 
 *M2015192 江苏盛泽医院*
 
-NQM-337 多条件查询标题头修改，去除原有的标题头
-NQM-263 修改排班记录打印显示层级而非能级问题
-NQM-259 多条件查询修改标题头
+NQM-343 修改护理排班记录
+NQM-342 修改班次维护
+NQM-534 排班字典维护添加组员中护士组名默认选中默认组
+NQM-418 实现上报表单打印
 NQM-392 护理质量管理系统安全隐患
-NQM-224 多条件查询 查询科室职务失败 字典维护进行批量保存 人员信息授课交流TAB页存在两个内容类型
-NQM-254 护理排班字典维护中添加组员功能修改
-NQM-257 新增江苏盛泽人员信息管理TAB页（实习/进修/代培）
-sql\0TABLEDATA\201607081919_PER_CONFIG_INSERT.SQL,
-NQM-120 针对护理质量检查以及上报不良事件模块需求调整
-NQM-215 调整职称/能级和护理/教学职称TAB页 专科小组修改学组
-sql\0TABLEDATA\201607011951_PER_INFO_TYPE_DETAIL_INSERT.sql,
+sql\0TABLEDATA\201608041804_RKL_RECORD_ALTER.SQL,
+sql\0TABLEDATA\201608041840_RK_TEACH_ALTER.SQL
 
 *M2015145 上海市胸科医院*
 
-NQM-165 胸科医院-不良事件压疮-添加图片上传功能
-NQM-360 实现pc端“上传图片”与ipad端“上传”与“拍照”按钮隐藏与显示
-
-*M2014192 桂林医学院附属医院*
-
-NQM-262 桂林医学院护理质量上报事件bug
-NQM-264 护理质量质量管理检查-原因分析与跟踪检查bug
-NQM-265 护理质量持续改进管理增加查询全部未下发项目需求
-NQM-266 护理质量ipad检查评估功能修改
+NQM-315 新增班次维护-病区模块
+NQM-498 【护理质量】上海胸科医院质量检查管理模块_任务分配修改2
+NQM-453 【护理质量】上海胸科医院质量检查管理模块_任务分配修改
+NQM-391 【护理质量】上海胸科医院排班模块-一级质控-护士长权限修改
+NQM-362 【护理质量】上海胸科医院人员档案-权限修改
+sql\0TABLEDATA\201608021450_SYS_OPERATION_INSERT.SQL
+sql\0TABLEDATA\201608101147_SYS_USERS.sql,
+sql\0TABLEDATA\201608101150_PER_CONFIG_INSERT.sql'
+sql\0TABLEDATA\201608101156_SYS_USERS_UPDATE.SQL,
 
 *M2016022-上海仁济医院*
 
-NQM-176 上海仁济医院安全测评系统修改
+NQM-227 上报事件的模块需要做大改动：共7张表单（新增）
+sql\0TABLEDATA\201608101835_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608101836_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608101837_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608101838_Rp_Status_Insert.sql'
+sql\0TABLEDATA\201608111745_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608111746_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608111747_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608111748_Rp_Status_Insert.sql'
+sql\0TABLEDATA\201608111759_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608111800_Rp_Permission_Insert.sql
+sql\0TABLEDATA\201608112122_Rp_NameRecord_Delete.sql,
+sql\0TABLEDATA\201608112123_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608112124_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608112125_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608112126_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608112127_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608112128_Rp_StatusChange_Delete.sql,
+sql\0TABLEDATA\201608112129_Rp_StatusChange_Insert.sql'
+sql\0TABLEDATA\201608112136_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608112137_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608112138_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608112139_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608112140_Rp_StatusChange_Delete.sql,
+sql\0TABLEDATA\201608112141_Rp_StatusChange_Insert.sql'
+sql\0TABLEDATA\201608112314_Rp_NameRecord_Delete.sql,
+sql\0TABLEDATA\201608112315_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608112316_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608112317_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608112318_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608112319_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608112320_Rp_StatusChange_Delete.sql,
+sql\0TABLEDATA\201608112321_Rp_StatusChange_Insert.sql'
+sql\0TABLEDATA\201608121108_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608121109_Rp_Permission_Insert.sql
+sql\0TABLEDATA\201608121409_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608121410_Rp_Permission_Insert.sql,
+sql\0TABLEDATA\201608121527_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608121528_Rp_Permission_Insert.sql'
+sql\0TABLEDATA\201608121817_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608121818_Rp_Permission_Insert.sql'
+
+*M2014198 连云港市第一人民医院*
+
+NQM-443 连云港第一人民医院护理管理系统新增需求
+
+*M2015196 湖南省人民医院*
+
+NQM-456 湖南省人民医院-人员档案-培训经历
+NQM-486 湖南省人民医院-质量检查专项查房-检查任务分配
+
+*M2015033 十堰市太和医院*
+
+NQM-421 护理质量统计柱状图
+NQM-551 满意度问题更改
+NQM-550 质量检查统计调整。
+NQM-549 质量检查原因分析与质量检查综合原因分析更改
+NQM-548 质量检查的任务检查界面更改
+NQM-577 协助现场录取质量检查新模板
+NQM-545 所有下拉框控件科室选择需要排序。
+NQM-544 上报系统已转科状态记录不需要显示。
+NQM-547 质量检查系统的所有任务检查界面更改
+NQM-546 质量检查系统和满意度系统选中行时颜色加深。
+NQM-419 质量检查护理部统计数据表遗留问题
+NQM-420 护理部专项督导检查结果汇总
 
 *M2014318 长沙市中心医院*
 
-NQM-204 长沙中心医院--护士排班管理--晚夜班费用统计
-sql\0TABLEDATA\201607051730_RKL_NIGHT_SALARY_ALTER.SQL,
-NQM-196 长沙市中心医院--人员信息导出
-sql\0TABLEDATA\201606281417_SYS_OPERATION_INSERT.sql,
-NQM-203 长沙中心医院--新增人员
-NQM-200 长沙中心医院--事件上报
-NQM-201 长沙市中心医院--科室权限设置
-NQM-194 长沙市中心医院--离职率统计
-sql\0TABLEDATA\201606301717_SYS_OPERATION_INSERT.sql,
-NQM-195 长沙市中心医院--科室人员信息查询
-NQM-198 长沙中心医院--权限设置
-NQM-199 长沙市中心医院--上报事件明细统计
-NQM-197 长沙中心医院--人员注销
+NQM-435 长沙人员基本信息中人员转科报错，且未生成相应的转科记录
+NQM-434 满意度调查，被调查人做一些处理
+NQM-433 护理不良事件分级提醒
+sql\0TABLEDATA\201608091544_SYS_OPERATION_UPDATE.SQL'
 
 *2012035福建省莆田学院附属医院*
 
-NQM-286 预期压疮上报表修改
-NQM-285 高危压疮上报表修改
+NQM-396 不良事件上报统计功能开发
 
-*M2015223-襄阳市中心医院*
+*M2016086-中国人民解放军第303医院*
 
-NQM-185 不良事件上报--静脉不良事件
-NQM-184 不良事件上报--难免压疮上报
-NQM-177 不良事件上报--针对所有不良事件上报表单
-NQM-178 不良事件上报--不良事件上报
-NQM-180 不良事件上报--压疮预报表
+NQM-460 护理质量考核标准与新增的两个不良事件功能表单
+NQM-339 解放军第303医院护理质量系统不良事件功能清单及上报流程
+sql\0TABLEDATA\201608021523_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608021524_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608021525_Rp_StatusChange_Delete.sql,
+sql\0TABLEDATA\201608021526_Rp_StatusChange_Insert.sql,
+sql\0TABLEDATA\201608021535_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608021536_Rp_Permission_Insert.sql
+sql\0TABLEDATA\201608082023_Rp_NameRecord_Delete.sql,
+sql\0TABLEDATA\201608082024_Rp_NameRecord_Insert.sql,
+sql\0TABLEDATA\201608082025_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608082026_Rp_Permission_Insert.sql'
+sql\0TABLEDATA\201608091814_Rp_Status_Delete.sql,
+sql\0TABLEDATA\201608091815_Rp_Status_Insert.sql,
+sql\0TABLEDATA\201608091857_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608091858_Rp_Permission_Insert.sql'
+sql\0TABLEDATA\201608111445_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608111446_Rp_Permission_Insert.sql'
+sql\0TABLEDATA\201608121544_Rp_Permission_Delete.sql,
+sql\0TABLEDATA\201608121545_Rp_Permission_Insert.sql'
 
 *M2015136 本溪市金山医院*
 
-NQM-232 人员管理模块-基础信息-指定数据添加权限控制
-NQM-237 上报事件模块——上报表单-病区——报表打印内容&布局&风格优化
-NQM-236 事件上报——上报事件-病区——界面内容修复
-NQM-284 【金山医院】上报事件管理-上报事件统计中科室列表数据过滤
-NQM-234 排班管理模块——护理排班记录——报表打印修复
-NQM-233 排班管理模块——护理排班记录——人员显示顺序改进
-NQM-283 【金山医院】排班管理——页面显示内容微调
-NQM-235 排班管理——护理排班记录——复制排班改进
-
-*M2015104 广州医科大学附属第三医院*
-
-NQM-272 修改上报事件列表导出、进修人员需求
+NQM-457 护士交接班模块增加病区选择及页面调整
